@@ -1,0 +1,18 @@
+.datagridMain{
+    /* position:relative; */
+    width: 100%;
+    display: flex;
+}
+.leftDatagrid{
+    width: 30%;
+    
+}
+.rightDatagrid{
+    width:70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.datagridDiv{
+    width: 30%;
+    gap:5%;
+}

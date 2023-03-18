@@ -1,0 +1,17 @@
+.bannerMain{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Desktop_launches_fa37a114ad.jpg"); 
+    background-color: #cccccc;
+    height:800px;
+    width:100%;
+    /* position: absolute; */
+    margin:0%;
+    padding: 0%;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+} 
+.bannerLogo{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
