@@ -1,13 +1,17 @@
 .searchformMain{
     width: 100%;
     display: flex;
-    
+     
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .leftSearchform{
     width:30%;
-    padding:'5%'
+    display: grid;
+    padding:5%;
+    
 }
 .rightSearchform{
-    width:'70%'
+    width:70%
 
 }

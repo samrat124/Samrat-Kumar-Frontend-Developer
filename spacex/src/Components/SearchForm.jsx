@@ -49,6 +49,7 @@ const SearchForm = () => {
   return (
     <div className='searchformMain'>
         <div className='leftSearchform'>
+            <h1>Search Information related to Capsules</h1>
     <form onSubmit={handleSubmit}>
         <input type="text" placeholder='Search' onChange={filterQuery} />
         <input type="submit" />

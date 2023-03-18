@@ -4,6 +4,8 @@
     display: grid;
     gap: 2%;
     text-align: center;
+    background-color: rgb(135, 135, 108);
+    color: rgb(28, 19, 19);
 }
 .datagridMain{
     display:grid;
@@ -14,5 +16,6 @@
 .paginationMain{
     margin-top: 150px;
     margin-left: 40%;
-    margin-bottom: 100px;
+    padding-bottom: 5%;
+    
 }
