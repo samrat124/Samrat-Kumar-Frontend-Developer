@@ -1,0 +1,13 @@
+.searchformMain{
+    width: 100%;
+    display: flex;
+    
+}
+.leftSearchform{
+    width:30%;
+    padding:'5%'
+}
+.rightSearchform{
+    width:'70%'
+
+}

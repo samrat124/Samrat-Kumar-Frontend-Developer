@@ -3,6 +3,7 @@ import axios from 'axios';
 import {useDispatch,useSelector} from 'react-redux'
 import { dataAction } from '../Redux/action';
 import DataCard from './DataCard';
+import './searchform.css'
 
 
 const SearchForm = () => {
@@ -13,6 +14,7 @@ const SearchForm = () => {
     let data1=useSelector((e)=>e.searchData)
     let filterQuery=(e)=>{
         e.preventDefault();
+        setQdata([]);
          setQuery(e.target.value);
         //  setQdata([]);
          console.log(query);
@@ -45,13 +47,14 @@ const SearchForm = () => {
         })
        },[]) 
   return (
-    <div><div className='leftDatagrid'>
+    <div className='searchformMain'>
+        <div className='leftSearchform'>
     <form onSubmit={handleSubmit}>
         <input type="text" placeholder='Search' onChange={filterQuery} />
         <input type="submit" />
     </form>
 </div>
-    <div>
+    <div className='rightSearchform'>
         <DataCard data={qdata}/>
         </div>
      </div>

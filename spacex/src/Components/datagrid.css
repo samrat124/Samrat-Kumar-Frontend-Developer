@@ -1,0 +1,18 @@
+.datagridDiv{
+    box-shadow: 5px 5px 5px black;
+    width: 100%;
+    display: grid;
+    gap: 2%;
+    text-align: center;
+}
+.datagridMain{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2%;
+    padding: 2%;
+}
+.paginationMain{
+    margin-top: 150px;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
