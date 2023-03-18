@@ -49,11 +49,15 @@ const SearchForm = () => {
   return (
     <div className='searchformMain'>
         <div className='leftSearchform'>
-            <h1>Search Information related to Capsules</h1>
+            <div>
+            <h1>Search Capsules</h1>
     <form onSubmit={handleSubmit}>
-        <input type="text" placeholder='Search' onChange={filterQuery} />
-        <input type="submit" />
+        <input className='searchbar' type="text" placeholder='Search' onChange={filterQuery} />
+        
+        <input className='searchbutton' type="submit" />
     </form>
+    <p style={{width:'80%'}}>Search Capsules By status,type and original_launch</p>
+    </div>
 </div>
     <div className='rightSearchform'>
         <DataCard data={qdata}/>

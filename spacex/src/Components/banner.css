@@ -9,9 +9,25 @@
     background-position: center;
     background-size: cover;
     overflow-y: auto;
+    position: relative;
 } 
 .bannerLogo{
     color: white;
     margin-left: 20px;
     margin-top: 20px;
+}
+.navbarMain{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color:rgba(89, 70, 70, 0.477);
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    align-items: center;
+}
+.linkMain{
+    color:white;
+    text-decoration: none;
 }

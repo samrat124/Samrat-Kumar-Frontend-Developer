@@ -27,8 +27,10 @@ const DataGrid = () => {
             return "N/A"  }
     }
   return (
-    <div>
+    <div className='datagrid'>
+         <h1 >CAPSULES DATA</h1>
     <div className='datagridMain'>
+       
        {
         data.map((ele,index)=>{
             if(index<=page*10&&index>=page*10-10){
