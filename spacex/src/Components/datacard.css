@@ -1,7 +1,6 @@
 .datacardMain{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    /* gap:2%; */
     padding: 2%;
 }
 
@@ -13,4 +12,12 @@
     gap: 2%;
     text-align: center;
     
+}
+
+@media  screen and (max-width: 600px){
+    .datacardMain{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 2%;
+    }
 }

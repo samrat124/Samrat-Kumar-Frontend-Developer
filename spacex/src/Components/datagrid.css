@@ -24,3 +24,13 @@
     padding-bottom: 5%;
     
 }
+
+@media  screen and (max-width: 600px){
+    .datagridMain{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2%;
+        padding: 2%;
+        
+    }
+}

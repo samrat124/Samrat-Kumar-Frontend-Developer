@@ -3,3 +3,11 @@
     box-sizing: border-box;
      
 }
+@media  screen and (max-width: 600px){
+    .homeMain{
+        background-color:teal;
+        box-sizing: border-box;
+         margin: auto;
+         overflow: hidden;
+    }
+}

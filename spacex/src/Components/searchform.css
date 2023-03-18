@@ -9,8 +9,6 @@
     display: grid;
     padding:5%;
     padding-top: 0%;
-
-    
 }
 .rightSearchform{
     width:70%;
@@ -27,4 +25,24 @@
 .searchbutton{
     padding: 1%;
     margin-left: 5px;
+}
+
+@media  screen and (max-width: 600px){
+    .searchformMain{
+        width: 100%;
+        display: grid;
+        margin-top: 80px;
+         
+    }
+    .leftSearchform{
+        width:100%;
+        display: grid;
+        padding:5%;
+        padding-top: 0%;
+    }
+    .rightSearchform{
+        width:100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
 }
