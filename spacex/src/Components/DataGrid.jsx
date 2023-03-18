@@ -38,7 +38,6 @@ const DataGrid = () => {
                 <h3>Serial Number: {ele.capsule_serial}</h3>
                 <p>Details: {checkDetails(ele)}</p>
                 <p>Status: {ele.status}</p>
-                
             </div>
             }
         })

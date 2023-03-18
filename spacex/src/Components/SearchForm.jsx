@@ -16,7 +16,6 @@ const SearchForm = () => {
         e.preventDefault();
         setQdata([]);
          setQuery(e.target.value);
-        //  setQdata([]);
          console.log(query);
      }
     
@@ -34,7 +33,6 @@ const SearchForm = () => {
             else if(new String(e.original_launch).includes(query)){
                 return true
             }
-            
             return false
            }))
     }
@@ -43,7 +41,6 @@ const SearchForm = () => {
         axios.get(`https://api.spacexdata.com/v3/capsules`)
         .then((res)=>{
            dataAction(res.data,dispatch);
-        //    setQdata(res.data);
         })
        },[]) 
   return (
